@@ -10,4 +10,4 @@ lower.o: lower.c lower.h
 clean:
         rm *.o
         rm lowercase
-~                   
+                  
