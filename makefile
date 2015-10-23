@@ -6,8 +6,8 @@ lowercase.o: lowercase.c lower.h
         cc -c lowercase.c
 
 lower.o: lower.c lower.h
-        cc -c lower.o
+        cc -c lower.c
 clean:
         rm *.o
-        rm lowercase
+        rm upperlower
                   
