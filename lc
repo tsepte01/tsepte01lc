@@ -6,11 +6,13 @@ then
    upperlower < $1 >$2
 fi
 
-if[$#-ne 2]
+if[ $# -ne 2]
 then
 
  echo "usage: lc file1 file2"
  echo "error"
+ 
+ exit
 
 fi
-~    
+   
